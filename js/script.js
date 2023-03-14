@@ -1,12 +1,20 @@
-// const result = confirm("Ты тут?");
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
 
-const answer = [];
+const namefilm = prompt("Один из просмотренных фильмов?", ''),
+      gradefilm = prompt("На сколько его оцените?", '');
 
-answer[0] = prompt("Как дела?");
-answer[1] = prompt("Ты кто?");
-answer[2] = prompt("Сколько лет?");
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: {},
+    privat: false
+};
 
-document.write(answer);
+personalMovieDB.movies[namefilm] = gradefilm;
+
+console.log(personalMovieDB);
+
 
 
 
