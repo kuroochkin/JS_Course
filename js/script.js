@@ -8,7 +8,7 @@ const personalMovieDB = {
     movies: {},
     actors: {},
     genres: {},
-    privat: false
+    privat: true
 };
 
 personalMovieDB.movies[namefilm] = gradefilm;
