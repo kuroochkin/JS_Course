@@ -1,12 +1,38 @@
-// const result = confirm("Ты тут?");
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
 
-const answer = [];
+if(numberOfFilms < 10){
+    alert("Просмотрено довольно мало фильмов");
+}
+else if(numberOfFilms > 10 && numberOfFilms < 30){
+    alert("Вы классический зритель");
+}
+else if(numberOfFilms > 30){
+    alert("Вы - киноман!");
+}
+else{
+    alert("Произошла ошибка");
+}
 
-answer[0] = prompt("Как дела?");
-answer[1] = prompt("Ты кто?");
-answer[2] = prompt("Сколько лет?");
+let namefilm = prompt("Один из просмотренных фильмов?", '');
+while(namefilm == null || namefilm.length == 0 || namefilm.length > 50)
+{
+    namefilm = prompt("Один из просмотренных фильмов?", '');
+}
+const gradefilm = prompt("На сколько его оцените?", '');
 
-document.write(answer);
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: {},
+    privat: false
+};
+
+personalMovieDB.movies[namefilm] = gradefilm;
+
+console.log(personalMovieDB);
+
+
 
 
 
