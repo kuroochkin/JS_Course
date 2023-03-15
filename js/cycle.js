@@ -1,19 +1,32 @@
-let num1 = 50;
+//dz
 
-while (num1 < 55)
+for (let i = 5; i <= 10; i++)
 {
-    console.log(num1);
-    num1++;
-}
+    console.log(i);
+} 
 
-let num2 = 50;
-
-do{
-    console.log(num2);
-    num2++;
-}
-while (num2 < 55);
-
-for (let i = 1; i < 8; i++){
+for (let i = 20; i >= 10; i--)
+{
+    if(i == 12){
+        break;
+    }
     console.log(i);
 }
+
+for (let i = 2; i <= 10; i++ )
+{
+    if(i % 2 == 1){
+        continue;
+    }
+    console.log(i);
+}
+
+let arr = {};
+
+for (let i = 0; i <= 5; i++)
+{
+    arr[i] = i+5;
+} 
+
+console.log(arr);
+
