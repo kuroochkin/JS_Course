@@ -39,3 +39,5 @@ function PrintResult(base, count){
 
 console.log(PrintResult(3, 10));
 
+
+
