@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const movieDB = {
         movies: [
-            "Логан",
+            "Лог",
             "Лига справедливости",
             "Ла-ла лэнд",
             "Одержимость",
@@ -53,8 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
         event.terget.reset();
     });
 
-    const deleteAdv = (arr) => {
-        arr.forEach(item => {
+    const deleteAdv = (array) => {
+        array.forEach(item => {
             item.remove();
         });
     };
