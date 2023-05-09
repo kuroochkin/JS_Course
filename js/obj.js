@@ -45,5 +45,4 @@ function showProgrammingLangs(obj)
 
 console.log(showProgrammingLangs(personalPlanPeter));
 
-console.log(personalPlanPeter.showAgeAndLangs(personalPlanPeter));
 
