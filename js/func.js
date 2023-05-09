@@ -66,5 +66,20 @@ function getCoupeNumber(value){
 
 console.log(getCoupeNumber(10));
 
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+console.log(getCoupeNumber(10));
+
 
 
